@@ -1,0 +1,17 @@
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    height: 32px;
+}
+.search-btn {
+    width: 100px;
+    height: 30px;
+    background-color:#71ba58;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+}

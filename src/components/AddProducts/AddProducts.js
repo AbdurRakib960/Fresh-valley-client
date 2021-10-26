@@ -88,7 +88,7 @@ const AddProducts = () => {
                         <Grid item xs={8} sm={6} md={6}>
                             <div className="name-wrapper">
                                 <label htmlFor="file-input">
-                                    <span className="upload" style={{ marginRight: '.5rem' }}><BsCloudUpload /> upload picture</span>
+                                    <i className="upload"><BsCloudUpload /> <span style={{marginLeft:'1rem'}}>Upload picture</span> </i>
                                 </label>
 
 

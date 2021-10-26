@@ -12,12 +12,14 @@ const Admin = () => {
     return (
         <div className="admin-wrapper">
             <div className="side-bar">
+                <div className="div">
                 <h2>Fresh valley</h2>
                 <ul className="items">
                     <li onClick={() => setAdmin('manage')}> <BsFillGridFill /> Manage Products</li>
                     <li onClick={() => setAdmin('add')}> <AiOutlinePlus/> Add Product</li>
                     <li onClick={() => setAdmin('edit')}> <AiFillEdit /> Edit Product</li>
                 </ul>
+                </div>
             </div>
             <Container fixed className="content-wrapper">
                 {

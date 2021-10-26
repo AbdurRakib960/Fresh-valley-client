@@ -1,0 +1,18 @@
+.pricing {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.buyNow {
+    max-height: 27px;
+    min-width: 85px;
+    background-color: #71ba58;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+}
+.product-card {
+    cursor: pointer;
+}
