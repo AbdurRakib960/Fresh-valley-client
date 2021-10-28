@@ -53,6 +53,15 @@ const NavBar = (props) => {
       id: 4,
       menuTitle: 'Deals',
       pageURL: '/deals'
+    },
+    {
+      id: 5,
+      menuTitle: currentUser ? (<div>
+        <img className="avatar" src={Avatar} alt="" />
+        <p style={{textAlign: 'center', fontWeight: 'bold'}}><small>{currentUser.displayName}</small></p>
+      </div>
+      ) : <button className="login-btn">Sign up</button>,
+      pageURL: !currentUser && '/logup'
     }
   ]
   return (

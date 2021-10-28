@@ -38,6 +38,7 @@ const AddProducts = () => {
     const handleSave = () => {
         const productInformation = {
             name: nameRef.current.value,
+            quantity: 0,
             weight: weightRef.current.value,
             price: priceRef.current.value,
             img: liveImageLink
